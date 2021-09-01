@@ -12,6 +12,8 @@ body {
 #Messages {
     height: 80%;
     background-color: #efefef;
+    display: flex;
+    flex-direction: column;
 }
 #Input {
     height: 20%;
@@ -32,4 +34,11 @@ body {
     border: 1px solid #e5e5e5;
     background-color: white;
     cursor: pointer;
+}
+.Message {
+    font-size: 30px;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto 2% auto;
 }
