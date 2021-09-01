@@ -1,0 +1,22 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kukonen/webchat.git"
+  },
+  "author": "Evgeniy Kukonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kukonen/webchat/issues"
+  },
+  "homepage": "https://github.com/kukonen/webchat#readme",
+  "dependencies": {
+    "ws": "^8.2.1"
+  }
+}
